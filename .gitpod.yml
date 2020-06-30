@@ -1,12 +1,12 @@
 image:
-  file: .gitpod.Dockerfile
+    file: .gitpod.Dockerfile
 
 tasks:
-  - name: client
-    before: cd todoapp
-    init: npm install
-    command: npm run serve
+    - name: client
+      before: cd todoapp
+      init: npm install
+      command: npm run serve
 
 vscode:
-  extensions:
-    - octref.vetur@0.23.0:TEzauMObB6f3i2JqlvrOpA==
+    extensions:
+        - octref.vetur@0.23.0:TEzauMObB6f3i2JqlvrOpA==
